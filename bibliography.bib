@@ -13,7 +13,7 @@
   title = {Approximate p-values for local sequence alignments: Numerical studies},
   journal = {Journal of Computational Biology},
   abstract = {Siegmund and Yakir (2000) have given an approximate p-value when two independent, identically distributed sequences from a finite alphabet are optimally aligned based on a scoring system that rewards similarities according to a general scoring matrix and penalizes gaps (insertions and deletions). The approximation involves an infinite sequence of difficult-to-compute parameters. In this paper, it is shown by numerical studies that these reduce to essentially two numerically distinct parameters, which can be computed as one-dimensional numerical integrals. For an arbitrary scoring matrix and affine gap penalty, this modified approximation is easily evaluated. Comparison with published numerical results show that it is reasonably accurate.},
-  data = {2001-10-01},
+  date = {2001-10-01},
 }
 
 @Article{gilbert2001function,
@@ -27,7 +27,7 @@
   year = {2001},
   publisher = {The Fibonacci Association},
   abstract = {In this paper we consider geometric representations of the iteration of quadratic polynomials modulo p. This is a discrete analogue of the classical quadratic Julia sets which have been the subject of much study.},
-  data = {2001-02-01},
+  date = {2001-02-01},
 }
 
 @Report{Storey2001BayesTechReport,
@@ -36,6 +36,7 @@
   type = {Technical Report 2001-12},
   institution = {Department of Statistics, Stanford University},
   date = {2001-05-01},
+  journal = {Stanford Statistics Technical Report},
   url = {http://storeylab.org/doc/2001-12.pdf},
   abstract = {With the growing abundance of large data sets, multiple comparison procedures continue to gain importance. For example, active areas such as wavelet analysis and genomics often require one to essentially test many hypotheses simultaneously. One multiple comparison procedure is the False Discovery Rate, which measures the expected propor- tion offalse positives among all significant hypotheses. In this paper we investigate some statistical properties of the False Discovery Rate. A Bayesian interpretation is made, and some asymptotic results are presented. Also, a new quantity called the q-value is introduced, which is the False Discovery Rate analogue of the p-value.},
 }
@@ -46,6 +47,7 @@
   type = {Technical Report Bio-216},
   institution = {Department of Statistics, Stanford University},
   date = {2001-05-01},
+  journal = {Stanford Statistics Technical Report},
   url = {http://storeylab.org/doc/BIO216.pdf},
   abstract = {Microarrays are a new technology that enables the simultaneous measurement of thousands of gene expression levels. A typical microarray experiment can produce millions of data points, raising serious problems of data reduction and simultaneous inference. We consider one such experiment in which oligonucleotide arrays were employed to assess the genetic effects of ionizing radiation on seven thousand human genes. A simple nonparametric empirical Bayes model is introduced that is used to guide the efficient reduction of the data to a single summary statistic per gene, and also to make simultaneous inferences concerning which genes were affected by the radiation. The empirical Bayes inferences are closely related to the frequentist False Discovery Rate criterion.},
 }
@@ -56,6 +58,7 @@
   type = {Technical Report 2001-18},
   institution = {Department of Statistics, Stanford University},
   date = {2001-06-01},
+  journal = {Stanford Statistics Technical Report},
   url = {http://storeylab.org/doc/2001-18.pdf},
   abstract = {Testing multiple hypotheses involves guarding against much more complicated errors than when testing a single hypothesis. Whereas one typically controls the Type I error rate for a single hypothesis test, the Family Wise Error Rate (FWER) or the False Discovery Rate (FDR) are controlled for multiple hypothesis tests. Therefore, just as in single hypothesis testing, the acceptable error rate is fixed and the rejection region is found to control the error rate. Controlling the FWER or FDR often involves complicated sequential p-value rejection methods based on the observed data. In other words, the rejection region is estimated from the data. In this paper we propose the opposite approach --- fix the rejection region and then estimate the error rate. This new approach offers increased applicability, accuracy, and power. We apply this methodology to the FDR and provide evidence for its benefits. Also discussed is the calculation of the q-value, which is the FDR analogue of the p-value. Some simple numerical examples are presented that show this new approach can yield over a 10 times increase in power compared to the Benjamini and Hochberg (1995) method. We also briefly discuss how this approach can be applied to other multiple hypothesis testing error measures, such as the FWER.},
 }
@@ -66,6 +69,7 @@
   type = {Technical Report Bio-217},
   institution = {Department of Statistics, Stanford University},
   date = {2001-09-01},
+  journal = {Stanford Statistics Technical Report},
   url = {http://storeylab.org/doc/BIO217.pdf},
   abstract = {In a classic two-sample problem one might use Wilcoxon's statistic to test for a difference between Treatment and Control subjects. The analogous microarray experiment yields thou- sands of Wilcoxon statistics, one for each gene on the array, and confronts the statistician with a difficult simultaneous inference situation . We will discuss two inferential approaches to this problem: an empirical Bayes method that requires very little a priori Bayesian modeling, and the frequentist method of 'False Discovery Rates' proposed by Benjamini and Hochberg in 1995. It turns out that the two methods are closely related and can be used together to produce sensible simultaneous inferences.},
 }
@@ -75,6 +79,7 @@
   title = {Estimating the positive false discovery rate under dependence, with applications to DNA microarrays},
   type = {Technical Report 2001-28},
   institution = {Department of Statistics, Stanford University},
+  journal = {Stanford Statistics Technical Report},
   date = {2001-10-01},
   url = {http://storeylab.org/doc/2001-28.pdf},
   abstract = {When conducting multiple hypothesis tests, it is important to assess the number of false positives in some fashion. One useful error measure is the positive False Discovery Rate (pFDR). We show how to estimate the pFDR when general dependence between the hypotheses exists. This can be done using general statistics, not necessarily p-values, where the Type I error rate for a given rejection region may not even be known. We apply the proposed methodology to the problem of detecting differential gene expression in replicated DNA microarray experiments, where unknown dependence is likely to occur.},
@@ -93,7 +98,7 @@
   title = {Empirical Bayes analysis of a microarray experiment},
   journal = {Journal of the American Statistical Association},
   abstract = {Microarrays are a novel technology that facilitates the simultaneous measurement of thousands of gene expression levels. A typical microarray experiment can produce millions of data points, raising serious problems of data reduction, and simultaneous inference. We consider one such experiment in which oligonucleotide arrays were employed to assess the genetic effects of ionizing radiation on seven thousand human genes. A simple nonparametric empirical Bayes model is introduced, which is used to guide the efficient reduction of the data to a single summary statistic per gene, and also to make simultaneous inferences concerning which genes were affected by the radiation. Although our focus is on one specific experiment, the proposed methods can be applied quite generally. The empirical Bayes inferences are closely related to the frequentist false discovery rate (FDR) criterion.},
-  data = {2001-12-31},
+  date = {2001-12-31},
 }
 
 %% 2002
@@ -111,7 +116,7 @@
   title = {A direct approach to false discovery rates},
   journal = {Journal of the Royal Statistical Society: Series B (Statistical Methodology)},
   abstract = {Multiple-hypothesis testing involves guarding against much more complicated errors than single-hypothesis testing. Whereas we typically control the type I error rate for a single-hypothesis test, a compound error rate is controlled for multiple-hypothesis tests. For example, controlling the false discovery rate FDR traditionally involves intricate sequential p-value rejection methods based on the observed data. Whereas a sequential p-value method fixes the error rate and estimates its corresponding rejection region, we propose the opposite approach --- we fix the rejection region and then estimate its corresponding error rate. This new approach offers increased applicability, accuracy and power. We apply the methodology to both the positive false discovery rate pFDR and FDR, and provide evidence for its benefits. It is shown that pFDR is probably the quantity of interest over FDR. Also discussed is the calculation of the q-value, the pFDR analogue of the p-value, which eliminates the need to set the error rate beforehand as is traditionally done. Some simple numerical examples are presented that show that this new approach can yield an increase of over eight times in power compared with the Benjamini–Hochberg FDR method.},
-  data = {2002-08-12},
+  date = {2002-08-12},
 }
 
 @Article{Clement_2002,
@@ -127,7 +132,7 @@
   title = {In vivo regulation of human skeletal muscle gene expression by thyroid hormone},
   journal = {Genome Research},
   abstract = {Thyroid hormones are key regulators of metabolism that modulate transcription via nuclear receptors. Hyperthyroidism is associated with increased metabolic rate, protein breakdown, and weight loss. Although the molecular actions of thyroid hormones have been studied thoroughly, their pleiotropic effects are mediated by complex changes in expression of an unknown number of target genes. Here, we measured patterns of skeletal muscle gene expression in five healthy men treated for 14 days with 75 μg of triiodothyronine, using 24,000 cDNA element microarrays. To analyze the data, we used a new statistical method that identifies significant changes in expression and estimates the false discovery rate. The 381 up-regulated genes were involved in a wide range of cellular functions including transcriptional control, mRNA maturation, protein turnover, signal transduction, cellular trafficking, and energy metabolism. Only two genes were down-regulated. Most of the genes are novel targets of thyroid hormone. Cluster analysis of triiodothyronine-regulated gene expression among 19 different human tissues or cell lines revealed sets of coregulated genes that serve similar biologic functions. These results define molecular signatures that help to understand the physiology and pathophysiology of thyroid hormone action.},
-  data = {2002-02-01},
+  date = {2002-02-01},
 }
 
 @Thesis{storey2002false,
@@ -136,9 +141,10 @@
   year = {2002},
   institution = {Stanford University},
   type = {PhD Dissertation},
+  journal = {Stanford University PhD Dissertation},
   url = {https://searchworks.stanford.edu/view/5417184},
-  abstract = {Multiple hypothesis testing is concerned with appropriately controlling the rate of false positives when testing several hypotheses simultaneously, while maintaining the power of each test as much as possible. One multiple hypothesis testing error measure is the False Discovery Rate (FDR), which is loosely defined to be the expected proportion of false pos- itives among all significant hypotheses. The FDR is especially appropriate for exploratory analyses in which one is interested in finding many significant results among many tests. In this work, we introduce a modified version of the FDR called the 'positive False Discovery Rate' (pFDR). We argue the pFDR is a more appropriate and useful error measure, and we investigate its statistical properties. When assuming the test statistics come from a mixture distribution, we show the pFDR can be written as a posterior probability and can be connected to classification theory. These properties remain asymptotically true under fairly general conditions, even under certain forms of dependence. Also, a new quantity called the 'q-value' is introduced and investigated, which is a natural 'Bayesian p-value', or rather the pFDR analogue of the p-value. This idea is also generalized to any multiple hypothesis testing error measure. Using these results, we introduce point estimates of the FDR and pFDR for fixed rejection regions. The point estimates provide proper conservative behavior in the three scenarios of (1) estimating false discovery rates for fixed rejection regions, (2) estimating rejection regions for fixed false discovery rates, and (3) simultaneously estimating false discovery rates over all possible rejection regions –-- even under certain forms of dependence. It is shown that this new set of methodology extends the current methodology and also provides increases in power. We apply the methodology to the problem of de- tecting differential gene expression between two or more biological samples based on DNA microarray data. This application is well suited because the dependence between the tests (genes) is weak and the number of tests is quite large.},
-  data = {2002-06-01},
+  abstract = {Multiple hypothesis testing is concerned with appropriately controlling the rate of false positives when testing several hypotheses simultaneously, while maintaining the power of each test as much as possible. One multiple hypothesis testing error measure is the False Discovery Rate (FDR), which is loosely defined to be the expected proportion of false pos- itives among all significant hypotheses. The FDR is especially appropriate for exploratory analyses in which one is interested in finding many significant results among many tests. In this work, we introduce a modified version of the FDR called the 'positive False Discovery Rate' (pFDR). We argue the pFDR is a more appropriate and useful error measure, and we investigate its statistical properties. When assuming the test statistics come from a mixture distribution, we show the pFDR can be written as a posterior probability and can be connected to classification theory. These properties remain asymptotically true under fairly general conditions, even under certain forms of dependence. Also, a new quantity called the 'q-value' is introduced and investigated, which is a natural 'Bayesian p-value', or rather the pFDR analogue of the p-value. This idea is also generalized to any multiple hypothesis testing error measure. Using these results, we introduce point estimates of the FDR and pFDR for fixed rejection regions. The point estimates provide proper conservative behavior in the three scenarios of (1) estimating false discovery rates for fixed rejection regions, (2) estimating rejection regions for fixed false discovery rates, and (3) simultaneously estimating false discovery rates over all possible rejection regions --- even under certain forms of dependence. It is shown that this new set of methodology extends the current methodology and also provides increases in power. We apply the methodology to the problem of de- tecting differential gene expression between two or more biological samples based on DNA microarray data. This application is well suited because the dependence between the tests (genes) is weak and the number of tests is quite large.},
+  date = {2002-06-01},
 }
 
 @Article{Wang_2002,
@@ -154,7 +160,7 @@
   title = {Precision and functional specificity in {mRNA} decay},
   journal = {Proceedings of the National Academy of Sciences},
   abstract = {Posttranscriptional processing of mRNA is an integral component of the gene expression program. By using DNA microarrays, we precisely measured the decay of each yeast mRNA, after thermal inactivation of a temperature-sensitive RNA polymerase II. The half-lives varied widely, ranging from ∼3 min to more than 90 min. We found no simple correlation between mRNA half-lives and ORF size, codon bias, ribosome density, or abundance. However, the decay rates of mRNAs encoding groups of proteins that act together in stoichiometric complexes were generally closely matched, and other evidence pointed to a more general relationship between physiological function and mRNA turnover rates. The results provide strong evidence that precise control of the decay of each mRNA is a fundamental feature of the gene expression program in yeast.},
-  data = {2002-04-30},
+  date = {2002-04-30},
 }
 
 %% 2003
@@ -172,7 +178,7 @@
   title = {Genome-wide analysis of {mRNA} translation profiles in Saccharomyces cerevisiae},
   journal = {Proceedings of the National Academy of Sciences},
   abstract = {We have analyzed the translational status of each mRNA in rapidly growing Saccharomyces cerevisiae. mRNAs were separated by velocity sedimentation on a sucrose gradient, and 14 fractions across the gradient were analyzed by quantitative microarray analysis, providing a profile of ribosome association with mRNAs for thousands of genes. For most genes, the majority of mRNA molecules were associated with ribosomes and presumably engaged in translation. This systematic approach enabled us to recognize genes with unusual behavior. For 43 genes, most mRNA molecules were not associated with ribosomes, suggesting that they may be translationally controlled. For 53 genes, including GCN4, CPA1, and ICY2, three genes for which translational control is known to play a key role in regulation, most mRNA molecules were associated with a single ribosome. The number of ribosomes associated with mRNAs increased with increasing length of the putative protein-coding sequence, consistent with longer transit times for ribosomes translating longer coding sequences. The density at which ribosomes were distributed on each mRNA (i.e., the number of ribosomes per unit ORF length) was well below the maximum packing density for nearly all mRNAs, consistent with initiation as the rate-limiting step in translation. Global analysis revealed an unexpected correlation: Ribosome density decreases with increasing ORF length. Models to account for this surprising observation are discussed.},
-  data = {2003-04-01},
+  date = {2003-04-01},
 }
 
 @Article{Storey_2003,
@@ -188,7 +194,7 @@
   title = {The positive false discovery rate: A Bayesian interpretation and the q-value},
   journal = {Annals of Statistics},
   abstract = {Multiple hypothesis testing is concerned with controlling the rate of false positives when testing several hypotheses simultaneously. One multiple hypothesis testing error measure is the false discovery rate (FDR), which is loosely defined to be the expected proportion of false positives among all significant hypotheses. The FDR is especially appropriate for exploratory analyses in which one is interested in finding several significant results among many tests. In this work, we introduce a modified version of the FDR called the 'positive false discovery rate' (pFDR). We discuss the advantages and disadvantages of the pFDR and investigate its statistical properties. When assuming the test statistics follow a mixture distribution, we show that the pFDR can be written as a Bayesian posterior probability and can be connected to classification theory. These properties remain asymptotically true under fairly general conditions, even under certain forms of dependence. Also, a new quantity called the 'q-value' is introduced and investigated, which is a natural Bayesian posterior p-value, or rather the pFDR analogue of the p-value.},
-  data = {2003-12-01},
+  date = {2003-12-01},
 }
 
 @InCollection{storey2003sam,
@@ -202,7 +208,7 @@
   year = {2003},
   publisher = {Springer New York},
   abstract = {SAM is a computer package for correlating gene expression with an outcome parameter such as treatment, survival time, or diagnostic class. It thresholds an appropriate test statistic and reports the q-value of each test based on a set of sample permutations. SAM works as a Microsoft Excel add-in and has additional features for fold-change thresholding and block permutations. Here, we explain how the SAM methodology works in the context of a general approach to detecting differential gene expression in DNA microarrays. Some recently developed methodology for estimating false discovery rates and q-values has been included in the SAM software, which we summarize here.},
-  data = {2003-04-08},
+  date = {2003-04-08},
 }
 
 @InCollection{storey2003statistical,
@@ -216,7 +222,7 @@
   editor = {Michael Kaufmann and Claudia Klinger},
   booktitle = {Functional Genomics: Methods and Protocols},
   abstract = {In this chapter we discuss the problem of identifying differentially expressed genes from a set of microarray experiments. Statistically speaking, this task falls under the heading of 'multiple hypothesis testing.' In other words, we must perform hypothesis tests on all genes simultaneously to determine whether each one is differentially expressed. Recall that in statistical hypothesis testing, we test a null hypothesis vs an alternative hypothesis. In this example, the null hypothesis is that there is no change in expression levels between experimental conditions. The alternative hypothesis is that there is some change. We reject the null hypothesis if there is enough evidence in favor of the alternative. This amounts to rejecting the null hypothesis if its corresponding statistic falls into some predetermined rejection region. Hypothesis testing is also concerned with measuring the probability of rejecting the null hypothesis when it is really true (called a false positive), and the probability of rejecting the null hypothesis when the alternative hypothesis is really true (called power).},
-  data = {2003-03-13},
+  date = {2003-03-13},
 }
 
 @Article{Storey_2003_PNAS,
@@ -287,7 +293,7 @@
   date = {2005-08-04},
 }
 
-@Article{Storey_2005,
+@Article{Storey_2005_eqtl,
   doi = {10.1371/journal.pbio.0030267},
   url = {https://dx.doi.org/10.1371/journal.pbio.0030267},
   year = {2005},
@@ -303,7 +309,7 @@
   date = {2005-07-26},
 }
 
-@Article{Storey_2005:1,
+@Article{Storey_2005_time,
   doi = {10.1073/pnas.0504609102},
   url = {https://dx.doi.org/10.1073/pnas.0504609102},
   year = {2005},
@@ -353,7 +359,7 @@
   date = {2006-08-01},
 }
 
-@Article{Dabney2006,
+@Article{Dabney2006_affy,
   doi = {10.1186/gb-2006-7-3-401},
   url = {https://dx.doi.org/10.1186/gb-2006-7-3-401},
   year  = {2006},
@@ -363,12 +369,12 @@
   pages = {401},
   author = {Alan R Dabney and John D Storey},
   title = {A reanalysis of a published Affymetrix GeneChip control dataset},
-  journal = {Genome Biology}
+  journal = {Genome Biology},
   abstract = {In a recent Genome Biology article, Choe et al. described a control dataset for Affymetrix GeneChips. By spiking RNA at known quantities, the identities of all null and differentially expressed genes are known exactly, as well as the fold change of differential expression. With the wealth of analysis methods available for microarray data, a control dataset would be very useful. Unfortunately, serious errors are evident in the Choe et al. data, disproving their conclusions and implying that the dataset cannot be used to validly evaluate statistical inference methods. We argue that problems in the dataset are at least partially due to a flaw in the experimental design.},
   date = {2006-03-22},
 }
 
-@Article{Dabney_2006:1,
+@Article{Dabney_2006_cads,
   doi = {10.1093/biostatistics/kxj038},
   url = {https://dx.doi.org/10.1093/biostatistics/kxj038},
   year = {2006},
@@ -786,6 +792,7 @@
   publisher = {Walter de Gruyter {GmbH}},
   volume = {10},
   number = {1},
+  pages = {2361--2373},
   author = {Jeffrey T Leek and John D. Storey},
   title = {The joint null criterion for multiple hypothesis tests},
   journal = {Statistical Applications in Genetics and Molecular Biology},
@@ -832,7 +839,7 @@
   volume = {108},
   number = {9},
   pages = {3707--3712},
-  author = {W. Xu and J. Seok and M. N. Mindrinos and A. C. Schweitzer and H. Jiang and J. Wilhelmy and T. A. Clark and K. Kapur and Y. Xing and M. Faham and John D. Storey and L. L. Moldawer and R. V. Maier and R. G. Tompkins and W. H. Wong and R. W. Davis and W. Xiao and M. Toner and S. Warren and D. A. Schoenfeld and L. G. Rahme and G. P. McDonald-Smith and D. L. Hayden and P. H. Mason and S. Fagan and Y.-M. Yu and J. P. Cobb and D. G. Remick and J. A. Mannick and J. A. Lederer and R. L. Gamelli and G. M. Silver and M. A. West and M. B. Shapiro and R. D. Smith and D. G. Camp and W. Qian and R. Tibshirani and S. F. Lowry and S. E. Calvano and I. Chaudry and M. Cohen and E. E. Moore and J. L. Johnson and H. V. Baker and P. A. Efron and U. G. J. Balis and T. R. Billiar and J. B. Ochoa and J. Sperry and C. L. Miller-Graziano and A. K. De and P. E. Bankey and D. N. Herndon and C. C. Finnerty and M. G. Jeschke and J. P. Minei and B. D. Arnoldo and J. L. Hunt and J. Horton and B. H. Brownstein and B. Freeman and A. B. Nathens and J. Cuschieri and N. Gibran and M. Klein and G. O\textquotesingleKeefe and L. Altstein and H. Gao and B. G. Harbrecht and L. Hennessy and S. E. Honari and B. A. McKinley and F. A. Moore and B. Wispelwey and},
+  author = {W. Xu and J. Seok and M. N. Mindrinos and A. C. Schweitzer and H. Jiang and J. Wilhelmy and T. A. Clark and K. Kapur and Y. Xing and M. Faham and John D. Storey and L. L. Moldawer and R. V. Maier and R. G. Tompkins and W. H. Wong and R. W. Davis and W. Xiao},
   title = {Human transcriptome array for high-throughput clinical studies},
   journal = {Proceedings of the National Academy of Sciences},
   abstract = {A 6.9 million-feature oligonucleotide array of the human transcriptome [Glue Grant human transcriptome (GG-H array)] has been developed for high-throughput and cost-effective analyses in clinical studies. This array allows comprehensive examination of gene expression and genome-wide identification of alternative splicing as well as detection of coding SNPs and noncoding transcripts. The performance of the array was examined and compared with mRNA sequencing (RNA-Seq) results over multiple independent replicates of liver and muscle samples. Compared with RNA-Seq of 46 million uniquely mappable reads per replicate, the GG-H array is highly reproducible in estimating gene and exon abundance. Although both platforms detect similar expression changes at the gene level, the GG-H array is more sensitive at the exon level. Deeper sequencing is required to adequately cover low-abundance transcripts. The array has been implemented in a multicenter clinical program and has generated high-quality, reproducible data. Considering the clinical trial requirements of cost, sample availability, and throughput, the GG-H array has a wide range of applications. An emerging approach for large-scale clinical genomic studies is to first use RNA-Seq to the sufficient depth for the discovery of transcriptome elements relevant to the disease process followed by high-throughput and reliable screening of these elements on thousands of patient samples using custom-designed arrays.},
@@ -1181,27 +1188,27 @@
 
 @Article{Ochoa083915,
   author = {Ochoa, Alejandro and Storey, John D.},
-  title = {$F_{ST}$ and kinship for arbitrary population structures I: Generalized definitions},
+  title = {F_ST and kinship for arbitrary population structures I: Generalized definitions},
   year = {2016},
   doi = {10.1101/083915},
   publisher = {Cold Spring Harbor Labs Journals},
   url = {https://dx.doi.org/10.1101/083915},
   journal = {bioRxiv},
   volume = {doi:10.1101/083915},
-  abstract = {$F_{ST}$ is a fundamental measure of genetic differentiation and population structure currently defined for subdivided populations. $F_{ST}$ in practice typically assumes the "island model", where subpopulations have evolved independently from their last common ancestral population. In this work, we generalize the $F_{ST}$ definition to arbitrary population structures, where individuals may be related in arbitrary ways. Our definitions are built on identity-by-descent (IBD) probabilities that relate individuals through inbreeding and kinship coefficients. We generalize $F_{ST}$ as the mean inbreeding coefficient of the individuals' local populations relative to their last common ancestral population. This $F_{ST}$ naturally yields a useful pairwise $F_{ST}$ between individuals. We show that our generalized definition agrees with Wright's original and the island model definitions as special cases. We define a novel coancestry model based on "individual-specific allele frequencies" and prove that its parameters correspond to probabilistic kinship coefficients. Lastly, we study and extend the Pritchard-Stephens-Donnelly admixture model in the context of our coancestry model and calculate its $F_{ST}$. Our probabilistic framework provides a theoretical foundation that extends $F_{ST}$ in terms of inbreeding and kinship coefficients to arbitrary population structures.},
+  abstract = {F_ST is a fundamental measure of genetic differentiation and population structure currently defined for subdivided populations. F_ST in practice typically assumes the "island model", where subpopulations have evolved independently from their last common ancestral population. In this work, we generalize the F_ST definition to arbitrary population structures, where individuals may be related in arbitrary ways. Our definitions are built on identity-by-descent (IBD) probabilities that relate individuals through inbreeding and kinship coefficients. We generalize F_ST as the mean inbreeding coefficient of the individuals' local populations relative to their last common ancestral population. This F_ST naturally yields a useful pairwise F_ST between individuals. We show that our generalized definition agrees with Wright's original and the island model definitions as special cases. We define a novel coancestry model based on "individual-specific allele frequencies" and prove that its parameters correspond to probabilistic kinship coefficients. Lastly, we study and extend the Pritchard-Stephens-Donnelly admixture model in the context of our coancestry model and calculate its F_ST. Our probabilistic framework provides a theoretical foundation that extends F_ST in terms of inbreeding and kinship coefficients to arbitrary population structures.},
   date = {2016-10-27},
 }
 
 @Article{Ochoa083923,
   author = {Ochoa, Alejandro and Storey, John D.},
-  title = {$F_{ST}$ and kinship for arbitrary population structures II: Method of moments estimators},
+  title = {F_ST and kinship for arbitrary population structures II: Method of moments estimators},
   year = {2016},
   doi = {10.1101/083923},
   publisher = {Cold Spring Harbor Labs Journals},
   url = {https://dx.doi.org/10.1101/083923},
   journal = {bioRxiv},
   volume = {doi:10.1101/083923},
-  abstract = {$F_{ST}$ and kinship are key parameters often estimated in modern population genetics studies. Kinship matrices have also become a fundamental quantity used in genome-wide association studies and heritability estimation. The most frequently used estimators of FST and kinship are method of moments estimators whose accuracies depend strongly on the existence of simple underlying forms of structure, such as the island model of non-overlapping, independently evolving subpopulations. However, modern data sets have revealed that these simple models of structure do not likely hold in many populations, including humans. In this work, we provide new results on the behavior of these estimators in the presence of arbitrarily complex population structures. After establishing a framework for assessing bias and consistency of genome-wide estimators, we calculate the accuracy of $F_{ST}$ and kinship estimators under arbitrary population structures, characterizing biases and estimation challenges unobserved under their originally assumed models of structure. We illustrate our results using simulated genotypes from an admixture model, constructing a one-dimensional geographic scenario that departs nontrivially from the island model. Using 1000 Genomes Project data, we verify that population-level pairwise $F_{ST}$ estimates underestimate differentiation measured by an individual-level pairwise $F_{ST}$ estimator introduced here. We show that the calculated biases are due to unknown quantities that cannot be estimated under the established frameworks, highlighting the need for innovative estimation approaches in complex populations. We provide initial results that point towards a future estimation framework for generalized $F_{ST}$ and kinship.},
+  abstract = {F_ST and kinship are key parameters often estimated in modern population genetics studies. Kinship matrices have also become a fundamental quantity used in genome-wide association studies and heritability estimation. The most frequently used estimators of FST and kinship are method of moments estimators whose accuracies depend strongly on the existence of simple underlying forms of structure, such as the island model of non-overlapping, independently evolving subpopulations. However, modern data sets have revealed that these simple models of structure do not likely hold in many populations, including humans. In this work, we provide new results on the behavior of these estimators in the presence of arbitrarily complex population structures. After establishing a framework for assessing bias and consistency of genome-wide estimators, we calculate the accuracy of F_ST and kinship estimators under arbitrary population structures, characterizing biases and estimation challenges unobserved under their originally assumed models of structure. We illustrate our results using simulated genotypes from an admixture model, constructing a one-dimensional geographic scenario that departs nontrivially from the island model. Using 1000 Genomes Project data, we verify that population-level pairwise F_ST estimates underestimate differentiation measured by an individual-level pairwise F_ST estimator introduced here. We show that the calculated biases are due to unknown quantities that cannot be estimated under the established frameworks, highlighting the need for innovative estimation approaches in complex populations. We provide initial results that point towards a future estimation framework for generalized F_ST and kinship.},
   date = {2016-10-27},
 }
 
